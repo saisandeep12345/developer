@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <form action="/greet" method="POST">
+        <input type="text" name="name" placeholder="Enter your name">
+        <button type="submit">Greet</button>
+    </form>
+    <script src="app.py">newapp</script>
+</body>
+</html>
